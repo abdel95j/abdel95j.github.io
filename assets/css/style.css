@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.section-backg {
+  height: 100vh;
+  background: url('../images/background.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.section-backg h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.section-backg p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.highlight {
+  color: #ff6600;
+}
+
+.btn {
+  background-color: #ff6600;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #e65500;
+}
