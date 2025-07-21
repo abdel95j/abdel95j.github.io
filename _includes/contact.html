@@ -1,11 +1,12 @@
 <section id="contact" class="section">
+  <h2 class="section-title">CONTACTEZ-MOI</h2>
   <div class="container-contact">
     <div class="form-contact">
-      <form method="POST" action="#">
-        <input type="text" placeholder="Nom*" required />
-        <input type="email" placeholder="Email*" required />
-        <input type="text" placeholder="Sujet" />
-        <textarea placeholder="Message" rows="6"></textarea>
+      <form method="POST" action="https://formspree.io/f/mzzvdwgd">
+        <input type="text" name="name" placeholder="Nom*" required />
+        <input type="email" name="email" placeholder="Email*" required />
+        <input type="text" name="subject" placeholder="Objet*" required />
+        <textarea name="message" placeholder="Message*" rows="6" required></textarea>
         <button type="submit">Envoyer</button>
       </form>
     </div>
