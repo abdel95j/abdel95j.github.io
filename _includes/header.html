@@ -1,8 +1,14 @@
 <header class="navbar">
   <div class="nav-container">
-    <div class="logo">ABDELAH EL HARSAL</div>
+    <div class="logo">
+      <span class="prenom">Abdelah</span> <span class="nom">El Harsal</span>
+    </div>
+
+    <!-- Bouton menu burger -->
+    <button class="burger" id="burgerBtn">&#9776;</button>
+
     <nav>
-      <ul class="nav-links">
+      <ul class="nav-links" id="navLinks">
         <li><a href="#backg">Accueil</a></li>
         <li><a href="#about">À propos</a></li>
         <li><a href="#experience">Expérience</a></li>
@@ -14,3 +20,14 @@
     </nav>
   </div>
 </header>
+
+<!-- Script pour activer/désactiver le menu mobile -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const burger = document.getElementById("burgerBtn");
+    const nav = document.getElementById("navLinks");
+    burger.addEventListener("click", () => {
+      nav.classList.toggle("show");
+    });
+  });
+</script>
