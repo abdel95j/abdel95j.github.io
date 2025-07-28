@@ -1,16 +1,9 @@
-title: Abdelah El Harsal
-description: >- 
-  Portfolio personnel d'Abdelah El Harsal – ingénieur informatique passionné par la cybersécurité, le développement et la data.
-baseurl: "/portfolio" 
+title: "Portfolio"
+baseurl: "/portfolio" # important pour un repo nommé portfolio
 url: "https://abdel95j.github.io"
 theme: minima
-
 markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
 
-show_excerpts: false
-collections:
-  posts:
-    output: false
+plugins:
+  - jekyll-include
+  - jekyll-feed
