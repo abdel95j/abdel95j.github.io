@@ -9,3 +9,8 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+show_excerpts: false
+collections:
+  posts:
+    output: false
