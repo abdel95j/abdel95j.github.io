@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/portfolio/assets/css/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
@@ -15,22 +15,15 @@
     {{ content }}
   </main>
 
-  <!-- AOS animations -->
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script>
-    AOS.init({
-      duration: 1000,
-      once: true
-    });
+    AOS.init({ duration: 1000, once: true });
   </script>
 
   <script>
     const burger = document.getElementById("burger");
     const navMenu = document.getElementById("nav-menu");
-
-    burger.addEventListener("click", () => {
-      navMenu.classList.toggle("show");
-    });
+    burger?.addEventListener("click", () => navMenu.classList.toggle("show"));
   </script>
 
 </body>
