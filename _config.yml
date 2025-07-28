@@ -1,9 +1,24 @@
 title: "Abdelah El Harsal – Portfolio"
+description: "Portfolio personnel"
 baseurl: "/portfolio" 
 url: "https://abdel95j.github.io"
-theme: minima
-markdown: kramdown
 
+markdown: kramdown
 plugins:
-  - jekyll-include
   - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - _site
+  - .sass-cache
+  - .jekyll-cache
+  - .idea
+  - .vscode
+
+include:
+  - _pages
+
