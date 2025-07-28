@@ -1,5 +1,5 @@
-title: "Portfolio"
-baseurl: "/portfolio" # important pour un repo nommé portfolio
+title: "Abdelah El Harsal – Portfolio"
+baseurl: "/portfolio" 
 url: "https://abdel95j.github.io"
 theme: minima
 markdown: kramdown
