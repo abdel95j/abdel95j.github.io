@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/portfolio/assets/css/style.css">
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
@@ -25,14 +25,13 @@
   </script>
 
   <script>
-  const burger = document.getElementById("burger");
-  const navMenu = document.getElementById("nav-menu");
+    const burger = document.getElementById("burger");
+    const navMenu = document.getElementById("nav-menu");
 
-  burger.addEventListener("click", () => {
-    navMenu.classList.toggle("show");
-  });
+    burger.addEventListener("click", () => {
+      navMenu.classList.toggle("show");
+    });
   </script>
-
 
 </body>
 </html>
