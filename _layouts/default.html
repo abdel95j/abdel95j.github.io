@@ -3,39 +3,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
   {% include header.html %}
 
-  {% include backg.html %}
-  {% include about.html %}
-  {% include experience.html %}
-  {% include formation.html %}
-  {% include skills.html %}
-  {% include projects.html %}
-  {% include certifications.html %}
-  {% include contact.html %}
+  <main>
+    {{ content }}
+  </main>
 
+  <!-- AOS animations -->
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script>
     AOS.init({
       duration: 1000,
       once: true
     });
-
-    const burger = document.getElementById("burger");
-    const navMenu = document.getElementById("nav-menu");
-
-    if (burger && navMenu) {
-      burger.addEventListener("click", () => {
-        navMenu.classList.toggle("show");
-      });
-    }
   </script>
+
+  <script>
+  const burger = document.getElementById("burger");
+  const navMenu = document.getElementById("nav-menu");
+
+  burger.addEventListener("click", () => {
+    navMenu.classList.toggle("show");
+  });
+  </script>
+
 
 </body>
 </html>
