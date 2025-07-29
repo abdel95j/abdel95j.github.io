@@ -10,6 +10,9 @@ permalink: pretty
 plugins:
   - jekyll-include-cache
 
+include:
+  - _includes
+
 exclude:
   - Gemfile
   - Gemfile.lock
