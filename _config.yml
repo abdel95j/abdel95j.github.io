@@ -1,20 +1,8 @@
 title: Abdelah El Harsal – Portfolio
-description: Portfolio personnel
-theme: null
+description: Portfolio professionnel d'Abdelah El Harsal
+baseurl: ""
 url: "https://abdel95j.github.io"
-
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
-
+theme: minima
 plugins:
   - jekyll-include-cache
-
-include:
-  - _includes
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
