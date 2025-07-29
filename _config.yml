@@ -1,6 +1,11 @@
 title: Abdelah El Harsal – Portfolio
+description: Portfolio personnel
 url: "https://abdel95j.github.io"
+baseurl: ""
+
+markdown: kramdown
 theme: null
+permalink: pretty
 
 plugins:
   - jekyll-include-cache
@@ -13,3 +18,7 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  - _site
+  - .jekyll-cache
+  - .sass-cache
+  - .jekyll-metadata
