@@ -5,6 +5,5 @@ _site
 vendor
 _posts/
 *.markdown
-*.md
 !index.md
 .DS_Store
