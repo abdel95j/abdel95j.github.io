@@ -1,19 +1,21 @@
-title: Abdelah El Harsal – Portfolio
-description: Portfolio personnel
-baseurl: ""
+title: "Abdelah El Harsal – Portfolio"
+description: "Portfolio personnel"
+theme: null
 url: "https://abdel95j.github.io"
+baseurl: ""
 
 markdown: kramdown
+highlighter: rouge
 permalink: pretty
 
 plugins:
   - jekyll-include-cache
-
-include:
-  - _includes
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
+  - _site
+  - .sass-cache
+  - .jekyll-cache
