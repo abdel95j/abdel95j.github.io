@@ -748,3 +748,32 @@ html {
   max-height: 100%;
   overflow: hidden;
 }
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-alt {
+  background-color: #f9fbfd;
+}
+
+.section-title {
+  font-size: 2em;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.section-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.timeline-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
