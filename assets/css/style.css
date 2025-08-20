@@ -749,3 +749,17 @@ html {
   overflow: hidden;
 }
 
+/* Applique à tous les titres de section */
+.section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #1d1d1d;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Fond alterné */
+.section-alt {
+  background-color: #f9fbfd; /* même couleur que d'autres sections alternées */
+}
