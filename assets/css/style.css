@@ -759,7 +759,10 @@ html {
   font-weight: bold;
 }
 
-/* Fond alterné */
 .section-alt {
   background-color: #ffffff; 
+}
+
+.section-experience .content {
+  background-color: #ffffff;
 }
