@@ -399,7 +399,7 @@ html {
 
 .section-about {
   padding: 100px 40px;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   text-align: center;
 }
 
@@ -458,7 +458,7 @@ html {
 }
 
 .section-experience {
-  background: #fff;
+  background: #f9f9f9;
   padding: 100px 20px;
   text-align: center;
 }
@@ -761,5 +761,5 @@ html {
 
 /* Fond alterné */
 .section-alt {
-  background-color: #f9fbfd; /* même couleur que d'autres sections alternées */
+  background-color: #ffffff; 
 }
