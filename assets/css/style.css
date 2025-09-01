@@ -452,9 +452,12 @@ html {
 }
 
 .about-photo img {
-  width: 300px;
+   width: 400px; 
+  max-width: 100%;
+  height: auto;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
 }
 
 .section-experience {
